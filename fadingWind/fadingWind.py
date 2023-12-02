@@ -1,6 +1,5 @@
 def main():
-    h,k,v,s = input("Enter 4 integers: ").split()
-    h = int(h); k = int(k); v = int(v); s = int(s)
+    h, k, v, s = [int(x) for x in input("Enter 4 integers: ").split()]
     dist = 0
     while h > 0:
         v += s
